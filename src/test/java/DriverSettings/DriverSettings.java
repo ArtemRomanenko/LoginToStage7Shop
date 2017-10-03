@@ -23,9 +23,8 @@ public class DriverSettings {
 
     }
 
-//    @After
-//    public void tearDown() throws Exception {
-//        driver.quit();
-//
-//    }
+    @After
+    public void tearDown() throws Exception {
+        driver.quit();
+   }
 }
